@@ -1,11 +1,11 @@
----
+<!-- ---
 title: Whiteboarding for Interviews
 duration: "1:25"
 creator:
     name: Drew Mahrt
     city: NYC
 ---
-
+ -->
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Whiteboarding for Interviews
 
 
@@ -16,7 +16,7 @@ creator:
 
 ### STUDENT PRE-WORK
 *Before this lesson, you should already be able to:*
-- Write a function in Java using programming fundamentals
+- Write a function in JavaScript using programming fundamentals
 
 ### INSTRUCTOR PREP
 *Before this lesson, instructors will need to:*
@@ -97,8 +97,8 @@ Next, we should list the steps we are going to follow in our method.
 
 Finally, we can start writing our code:
 
-```
-public int findDifference(int[] arr1, int[] arr2){
+```js
+function findDifference(arr1, arr2){
   for(int i=0; i < arr1.length; i++){
     if(arr1[i] != arr2[i]){
       return i;
