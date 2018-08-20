@@ -61,6 +61,8 @@ Here are some extremely important skills to practice while at the whiteboard:
 
 - **Pseudocode:** Before you dive into the code, write out pseudocode, or at the very least, list out the steps you are going to take. Not only will this give you a guide to refer back to while you code, but it can help you spot mistakes in your logic before you start coding. Again, this ties back to the ability for your interviewer to understand your overall thought process.
 
+- **Sequence, Selection and Iteration:**  Use generic words to convey the sequence such as: GET,SET,PRINT,SUBTRACT,ADD.  Same goes for selection such as IF/THEN/ELSE/ENDIF and for iterations such as LOOP/DO/ENDLOOP, WHITE/THEN/ENDHILE.
+
 If you can't finish a question, that's ok! It's more important that you show the interviewer how you approached the problem and to give them a good idea of how you code.
 
 > Check: Ask the students what they should do if they get stuck while they are coding on the whiteboard.
@@ -74,9 +76,9 @@ Now that we've discussed some techniques, let's walk through a real example.
 
 Suppose we had the following question:
 
-```
-Given two arrays of integers of equal length, that are identical except for a single element, write a method to return the index of the number which is different in the second array.
-```
+
+#### Given two arrays of integers of equal length, that are identical except for a single element, write a method to return the index of the number which is different in the second array.
+
 
 > Ask the students what they think the first step is, second, etc.
 
@@ -90,10 +92,15 @@ First, we should start off with a few quick examples:
 
 Next, we should list the steps we are going to follow in our method.
 
-1. Create a loop that goes through the arrays.
-2. At each index, compare the values in both arrays
-3. If they are different, return that index, else move on to the next index
-4. Return -1 if no difference is found
+```
+LOOP over both of the arrays.
+COMPARE the values at each index 
+IF they are different 
+	THEN return that index, 
+	ELSE move on to the next index
+ENDIF
+RETURN -1 if no difference is found
+```
 
 Finally, we can start writing our code:
 
@@ -122,9 +129,10 @@ Now it's your turn! Get into groups of 3-4 people, and each person will take, at
 
 1. Find the character that appears the most time in a given string (i.e. "tomorrow" should return 'o'). Return the character later in the alphabet if there is a tie.
 2. An array is supposed to contain the numbers 1-10, but one number is missing. Find and return that number.
-3. Write a method that finds the second highest number in an array of integers.
-4. Given a non-empty string and an int N, return the string made starting with char 0, and then every Nth char of the string. So if N is 3, use char 0, 3, 6, ... and so on. N is 1 or more.
+3. Write a function that finds the second highest number in an array of integers.
 5. Given an array of ints, return the string "even" if there are more even elements in the array, or "odd" if there are more odd elements in the array.
+6. Write a function that takes in a word and returns an object with the count of each vowel contained in that word.
+6. In DNA strings, symbols "A" and "T" are complements of each other, as are "C" and "G". Write a function called dnaTransform that takes in a DNA string of "ATTGC" and returns a string that represents it's compliment of "TAACG" 
 
 > Check: Take one minute to review the solution to each of the whiteboarding problems. Choose one student to lead the review for each.
 
