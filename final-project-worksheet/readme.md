@@ -8,18 +8,18 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Aug 27th| Project Description | Incomplete
-|Sep 5th| Wireframes / Priority Matrix / Functional Components | Incomplete
-|Sep 10th| External API(s) Decision / Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Sep 17th| Minimal Viable Product | Incomplete
-|Sep 26th| Styling / Bug Fixes | Incomplete
+|Sep 25th| Project Description | Incomplete
+|Sep 25th| Wireframes / Priority Matrix / Functional Components | Incomplete
+|Sep 26th| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Sep 27th| Pseudocode | Incomplete
+|Sep 28th| Initial JS  | Incomplete
+|Sep 29th| Bug Fixes | Incomplete
+|Sep 30th| Present | Incomplete
 
 
 ## Project Description
 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
-
-[I'm an inline-style link](https://www.google.com)
 
 ## Wireframes
 
@@ -75,9 +75,6 @@ function reverse(string) {
 	// here is the code to reverse a string of text
 }
 ```
-
-## jQuery Discoveries
- Use this section to list some, but not all, of the jQuery methods and\or functionality discovered while working on this project.
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
