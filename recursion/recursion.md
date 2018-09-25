@@ -107,7 +107,7 @@ The last refactor is to make this code look a bit more elegant using a ternary o
 
 ```
 function reverse(s) {
-	return s === "" ? "" : reverse(s.substr(1)) + s.charAt(0)
+	return s === "" ? "" : reverse(s.substr(1)) + s[0]
 }
 ```
 
