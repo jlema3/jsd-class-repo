@@ -95,7 +95,7 @@ function reverse(s) {
   // base case...stop looping when the string is empty
   if(s === "") { return reversedWord }
   // recursive case...do this while the base case if false
-  else { return reverse(s[1]) + reversedWord } 
+  else { return reverse(s.substr(1)) + reversedWord } 
 }
 ```
 
