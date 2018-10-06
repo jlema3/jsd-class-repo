@@ -95,7 +95,7 @@ function reverse(s) {
   // base case...stop looping when the string is empty
   if(s === "") { return reversedWord }
   // recursive case...do this while the base case if false
-  else { return reverse(s[1]) + reversedWord } 
+  else { return reverse(s.substr(1)) + reversedWord } 
 }
 ```
 
@@ -107,7 +107,7 @@ The last refactor is to make this code look a bit more elegant using a ternary o
 
 ```
 function reverse(s) {
-	return s === "" ? "" : reverse(s.substr(1)) + s.charAt(0)
+	return s === "" ? "" : reverse(s.substr(1)) + s[0]
 }
 ```
 
