@@ -134,6 +134,21 @@ A good working example of this is the algorithmic problem of **Flatten an Array*
 5. Add the code needed to fulfill these requirements. 
 4. Add a debugger to confirm that the returned elements meet your expectations. 
 
+
+**sumOfArrayIntegers**
+
+```
+function sum(arr){
+  let s = 0;
+  arr.forEach(d => {
+    s += d
+  })
+  return s
+}
+
+sumOfArrayIntegers([1,2,3]) => 6
+```
+
 **isPalindrome**
 
 ```
@@ -152,17 +167,4 @@ isPalindrome('hello') => 'olleh'
 ```
 
 
-**sumOfArrayIntegers**
-
-```
-function sum(arr){
-  let s = 0;
-  arr.forEach(d => {
-    s += d
-  })
-  return s
-}
-
-sumOfArrayIntegers([1,2,3]) => 6
-```
 
