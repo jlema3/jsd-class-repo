@@ -8,8 +8,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Sep 25th| Project Description | Incomplete
-|Sep 25th| Wireframes / Priority Matrix / Functional Components | Incomplete
+|October 27th| Project Description | Complete
+|October 27th| Wireframes / Priority Matrix / Functional Components | Incomplete
 |Sep 26th| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Sep 27th| Pseudocode | Incomplete
 |Sep 28th| Initial JS  | Incomplete
@@ -18,8 +18,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 
 ## Project Description
+My project is a website that uses your location to find the nearest public playground or available school (meetup) with a basketball game. Once you provide your location it will overlay basketball icons on the nearest court. Users can select the icon and get details or available information. Users can select and invite friends to the court. 
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+Court data: https://www.courtsoftheworld.com/United-States/New-York-City-NY
+or public NYC data: https://data.cityofnewyork.us/Recreation/Directory-of-Basketball-Courts/b937-zdky
+Meetup API: https://secure.meetup.com/meetup_api/console/
 
 ## Wireframes
 
