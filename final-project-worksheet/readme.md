@@ -10,11 +10,10 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |---|---| ---|
 |October 27th| Project Description | Complete
 |October 27th| Wireframes / Priority Matrix / Functional Components | Incomplete
-|Sep 26th| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Sep 27th| Pseudocode | Incomplete
-|Sep 28th| Initial JS  | Incomplete
-|Sep 29th| Bug Fixes | Incomplete
-|Sep 30th| Present | Incomplete
+|Nov 3rd| Core Application Structure (HTML, CSS, etc.)
+|Nov 10th| Basic JavaScript Functionality
+|Nov 17th| Minimal Viable Product
+|Dec 1st| In-Class Final Presentations
 
 
 ## Project Description
